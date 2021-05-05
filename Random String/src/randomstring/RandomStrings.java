@@ -14,7 +14,7 @@ import javafx.scene.canvas.*;
 import javafx.scene.paint.Color;
 
 /**
- * This program muestra 25 copias de un mensaje.  El color y la
+ * Este programa muestra 25 copias de un mensaje.  El color y la
  * porsición de cada mensaje se calcula de forma aleatoria.  El
  * tipo de fuente se selecciona también de forma aleatoria de entre
  * cinco posibles. Los mensajes son mostrados en un fondo blanco.
@@ -24,8 +24,6 @@ public class RandomStrings extends Application {
 
     private final static String MESSAGE = "Hola JavaFX"; 
 
-    private Font font1, font2, font3, font4, font5;  // The five fonts.
-    
     private Canvas canvas;  // The canvas on which the strings are drawn.
     
     Font[] fonts; // Array de fuentes
