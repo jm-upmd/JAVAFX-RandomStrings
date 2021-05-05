@@ -39,7 +39,7 @@ public class RandomStrings extends Application {
     public void start( Stage stage ) {
     	
     	
-    	verFuentes();
+    	//verFuentes();
     	
     	// Array que contine cinco fuentes
     	fonts = new Font[5];
