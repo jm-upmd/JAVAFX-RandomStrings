@@ -147,11 +147,11 @@ public class RandomStrings extends Application {
     	List<String> fontFamilies = Font.getFamilies();
     	List<String> fontNames    = Font.getFontNames();
     	
-    	System.out.println("**********FAMILIAS DE FUENTE***********");
+    	System.out.println("********** FAMILIAS DE FUENTE ***********");
     	for(String f: fontFamilies)
     		System.out.println(f);
     	
-    	System.out.println("**********NOMBRES DE FUENTE***********");
+    	System.out.println("********** NOMBRES DE FUENTE ***********");
 
     	for(String f: fontNames)
     		System.out.println(f);
